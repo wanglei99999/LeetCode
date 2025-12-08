@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.Arrays;
 
-class Solution {
+class mySolution {
     public int maxVowels(String s, int k) {
         int left = 0;int right = k-1;
         int res = 0;
@@ -40,6 +40,34 @@ class Solution {
                 cur++;
             }
             res = Math.max(res,cur);
+            if(res == k)
+                return res;
+        }
+        return res;
+    }
+}
+
+
+class Solution{
+
+    //这种滑动窗口是入（刚好满足条件）-》计算-》出（空了一个位置出来）的写法
+    public int maxVowels(String s,int k){
+        int res = 0;
+        
+        char[] cs= s.toCharArray();
+        int right = 0;
+        int cur = 0;
+        for(;right<s.length();right++){
+            if(cs[right] == 'a'||cs[right]=='e'||cs[right] == 'i'||cs[right] == 'o'||cs[right] == 'u')
+                cur ++;
+            //如何判断要不要+1，你只要去看你设置的区间是开闭，还是半开半闭,当前是闭区间[L,R],内部元素数量就是R-L+1；
+            int left = right-k+1; 
+            if(left<0)
+                continue;
+            res = Math.max(res,cur);  
+            if (res==k) return res;
+            if(cs[left] == 'a'||cs[left]=='e'||cs[left] == 'i'||cs[left] == 'o'||cs[left] == 'u')
+                cur --;
         }
         return res;
     }
