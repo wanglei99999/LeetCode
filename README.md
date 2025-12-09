@@ -4,7 +4,7 @@
 
 | 分类 | 已完成 |
 |------|--------|
-| 滑动窗口 | 3 |
+| 滑动窗口 | 4 |
 
 ---
 
@@ -15,7 +15,7 @@
 | 643 | [子数组最大平均数 I](滑动窗口/643.maximum-average-subarray-i.java) | Easy | 定长窗口 | ✅ |
 | 1343 | [大小为 K 且平均值大于等于阈值的子数组数目](滑动窗口/1343.number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.java) | Medium | 定长窗口 | ✅ |
 | 1456 | [定长子串中元音的最大数目](滑动窗口/1456.maximum-number-of-vowels-in-a-substring-of-given-length.java) | Medium | 定长窗口 | ✅ |
-| 2090 | [半径为 k 的子数组平均值](滑动窗口/2090.k-radius-subarray-averages.java) | Medium | 定长窗口 | 🚧 |
+| 2090 | [半径为 k 的子数组平均值](滑动窗口/2090.k-radius-subarray-averages.java) | Medium | 定长窗口 | ✅ |
 
 ---
 
