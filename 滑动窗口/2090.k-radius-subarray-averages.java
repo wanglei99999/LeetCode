@@ -12,7 +12,21 @@
 // @lc code=start
 class Solution {
     public int[] getAverages(int[] nums, int k) {
-        
+        int[] arr = new int[nums.length];
+        Arrays.fill(arr,-1);
+        long cur = 0;
+        int right = 0;
+        for(;right<nums.length;right++){
+            cur+=nums[right];
+            if(right<2*k){
+                continue;
+            }
+            
+            arr[right-k]= (int)cur/(2*k+1);
+            cur-=nums[right-(2*k+1)+1];
+
+        }
+        return arr;
     }
 }
 // @lc code=end
