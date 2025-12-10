@@ -2,3 +2,5 @@
 *.log
 #排除文件夹
 .lcpr_data/
+#本地笔记
+LOCAL_*.md
