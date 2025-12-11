@@ -4,7 +4,7 @@
 
 | 分类 | 已完成 |
 |------|--------|
-| 滑动窗口 | 5 |
+| 滑动窗口 | 6 |
 
 ---
 
@@ -17,6 +17,7 @@
 | 1456 | [定长子串中元音的最大数目](滑动窗口/1456.maximum-number-of-vowels-in-a-substring-of-given-length.java) | Medium | 定长窗口 | ✅ |
 | 2090 | [半径为 k 的子数组平均值](滑动窗口/2090.k-radius-subarray-averages.java) | Medium | 定长窗口 | ✅ |
 | 2379 | [得到 K 个黑块的最少涂色次数](滑动窗口/2379.minimum-recolors-to-get-k-consecutive-black-blocks.java) | Easy | 定长窗口 | ✅ |
+| 2841 | [几乎唯一子数组的最大和](2841.maximum-sum-of-almost-unique-subarray.java) | Medium | 定长窗口+HashMap | ✅ |
 
 ---
 
