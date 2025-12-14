@@ -25,7 +25,7 @@ class MySolution { // 回溯法，递归左右，但是会超时。做题前记�
     }
 }
 
-class Solution{ // 看完一些思路后我写的笨蛋方法
+class Solution01{ // 看完一些思路后我写的笨蛋方法
     public int maxScore(int[] cardPoints, int k){
         long res = Integer.MAX_VALUE;
         int right = 0;
@@ -52,6 +52,44 @@ class Solution{ // 看完一些思路后我写的笨蛋方法
         return (int)(sum-res);
     }
 }
+
+
+class Solution02{ // 灵茶山反向
+    public int maxScore(int[] cardPoints, int k){
+        int n = cardPoints.length;
+        int m = n-k;
+        int s = 0;
+        for(int i = 0 ;i<m;i++){
+            s+=cardPoints[i];
+        }
+        int total = s;
+        int minS = s;
+        for(int i = m;i<n;i++){
+            total+=cardPoints[i];
+            s+=cardPoints[i]-cardPoints[i-m];
+            minS=Math.min(minS,s);
+        }
+        return total-minS;
+    }
+}
+
+class Solution{
+    public int maxScore(int[] cardPoints, int k){
+        int s= 0;
+        for(int i = 0;i<k;i++){
+            s+=cardPoints[i];
+        }
+        int ans = s;
+        for(int i =1;i<=k;i++){
+            s+=cardPoints[cardPoints.length-i]-cardPoints[k-i];
+            ans = Math.max(ans,s);
+        }
+        return ans;
+
+
+    }
+}
+
 // @lc code=end
 
 
