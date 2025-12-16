@@ -23,7 +23,7 @@ class Solution {
         int left = 0;
         
         for(;right<nums.length;right++){
-            while(nums[right]>nums[left]){
+            while(nums[right]>(long)nums[left]*k){
                 left++;
             }
             ans = Math.max(ans,right-left+1);
