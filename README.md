@@ -4,7 +4,7 @@
 
 | 分类 | 已完成 |
 |------|--------|
-| 滑动窗口 | 13 |
+| 滑动窗口 | 15 |
 
 ---
 
@@ -14,11 +14,13 @@
 |------|------|------|------|------|
 | 3 | [无重复字符的最长子串](滑动窗口/3.longest-substring-without-repeating-characters.java) | Medium | 变长窗口 | ✅ |
 | 643 | [子数组最大平均数 I](滑动窗口/643.maximum-average-subarray-i.java) | Easy | 定长窗口 | ✅ |
+| 904 | [水果成篮](904.fruit-into-baskets.java) | Medium | 变长窗口+HashMap | ✅ |
 | 1208 | [尽可能使字符串相等](滑动窗口/1208.get-equal-substrings-within-budget.java) | Medium | 变长窗口 | ✅ |
 | 1343 | [大小为 K 且平均值大于等于阈值的子数组数目](滑动窗口/1343.number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.java) | Medium | 定长窗口 | ✅ |
 | 1423 | [可获得的最大点数](滑动窗口/1423.maximum-points-you-can-obtain-from-cards.java) | Medium | 定长窗口（逆向思维） | ✅ |
 | 1456 | [定长子串中元音的最大数目](滑动窗口/1456.maximum-number-of-vowels-in-a-substring-of-given-length.java) | Medium | 定长窗口 | ✅ |
 | 1493 | [删掉一个元素以后全为1的最长子数组](滑动窗口/1493.longest-subarray-of-1-s-after-deleting-one-element.java) | Medium | 变长窗口 | ✅ |
+| 1695 | [删除子数组的最大得分](1695.maximum-erasure-value.java) | Medium | 变长窗口+HashSet | ✅ |
 | 2090 | [半径为 k 的子数组平均值](滑动窗口/2090.k-radius-subarray-averages.java) | Medium | 定长窗口 | ✅ |
 | 2379 | [得到 K 个黑块的最少涂色次数](滑动窗口/2379.minimum-recolors-to-get-k-consecutive-black-blocks.java) | Easy | 定长窗口 | ✅ |
 | 2461 | [长度为 K 子数组中的最大和](滑动窗口/2461.maximum-sum-of-distinct-subarrays-with-length-k.java) | Medium | 定长窗口+HashMap | ✅ |
