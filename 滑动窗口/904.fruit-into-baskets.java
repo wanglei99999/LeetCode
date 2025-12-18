@@ -10,9 +10,31 @@
 
 // @lcpr-template-end
 // @lc code=start
+import java.util.Map;
+import java.util.HashMap;
 class Solution {
     public int totalFruit(int[] fruits) {
-        
+        int ans = 0;
+        Map<Integer,Integer> map = new HashMap();
+        int n = fruits.length;
+        int right = 0;
+        int left =0;
+        while(right<n){
+            int i = fruits[right];
+            right++;
+            map.merge(i,1,Integer::sum);
+            
+            while(map.size()>2){
+                int il = fruits[left];
+                left++;
+                map.merge(il, -1, Integer::sum);
+                if(map.get(il)==0)
+                    map.remove(il);
+            }
+            ans = Math.max(ans, right-left);
+        }
+
+        return ans;
     }
 }
 // @lc code=end
