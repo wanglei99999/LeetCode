@@ -4,7 +4,7 @@
 
 | 分类 | 已完成 |
 |------|--------|
-| 滑动窗口 | 15 |
+| 滑动窗口 | 16 |
 
 ---
 
@@ -25,6 +25,7 @@
 | 2379 | [得到 K 个黑块的最少涂色次数](滑动窗口/2379.minimum-recolors-to-get-k-consecutive-black-blocks.java) | Easy | 定长窗口 | ✅ |
 | 2461 | [长度为 K 子数组中的最大和](滑动窗口/2461.maximum-sum-of-distinct-subarrays-with-length-k.java) | Medium | 定长窗口+HashMap | ✅ |
 | 2841 | [几乎唯一子数组的最大和](滑动窗口/2841.maximum-sum-of-almost-unique-subarray.java) | Medium | 定长窗口+HashMap | ✅ |
+| 2024 | [考试的最大困扰度](2024.maximize-the-confusion-of-an-exam.java) | Medium | 变长窗口+HashMap | ✅ |
 | 3090 | [每个字符最多出现两次的最长子字符串](滑动窗口/3090.maximum-length-substring-with-two-occurrences.java) | Easy | 变长窗口+HashMap | ✅ |
 | 3634 | [使数组平衡的最少移除数目](滑动窗口/3634.minimum-removals-to-balance-array.java) | Medium | 排序+滑动窗口 | ✅ |
 
