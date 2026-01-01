@@ -5,6 +5,7 @@
 | 分类 | 已完成 |
 |------|--------|
 | 滑动窗口 | 18 |
+| 动态规划 | 2 |
 
 ---
 
@@ -30,6 +31,15 @@
 | 2024 | [考试的最大困扰度](滑动窗口/2024.maximize-the-confusion-of-an-exam.java) | Medium | 变长窗口+HashMap | ✅ |
 | 3090 | [每个字符最多出现两次的最长子字符串](滑动窗口/3090.maximum-length-substring-with-two-occurrences.java) | Easy | 变长窗口+HashMap | ✅ |
 | 3634 | [使数组平衡的最少移除数目](滑动窗口/3634.minimum-removals-to-balance-array.java) | Medium | 排序+滑动窗口 | ✅ |
+
+---
+
+## 动态规划
+
+| 题号 | 题目 | 难度 | 类型 | 状态 |
+|------|------|------|------|------|
+| 70 | [爬楼梯](动态规划/70.climbing-stairs.java) | Easy | 基础DP | ✅ |
+| 746 | [使用最小花费爬楼梯](动态规划/746.min-cost-climbing-stairs.java) | Easy | 基础DP | ✅ |
 
 ---
 
